@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/input2">
+    
+    <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        
+        <RelativeLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+    
+            <TextView 
+        	android:id="@+id/inputd"
+        	android:layout_marginTop="20dp"
+        	android:layout_marginLeft="20dp"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:textStyle="bold"
+        	android:textSize="15sp"
+        	android:text="Input Data dan Kriteria"/>
+    
+    		<TextView 
+        	android:id="@+id/nama"
+        	android:layout_alignLeft="@+id/inputd"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_below="@+id/inputd"
+        	android:text="Nama Siswa"/>
+    		
+    		<EditText
+    		    android:id="@+id/no1"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:layout_below="@+id/nama"
+    		    android:paddingTop="10dp" 
+    		    android:inputType="text"
+    		    android:layout_alignLeft="@+id/inputd"/>
+
+    		<EditText
+    		    android:id="@+id/no2"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:layout_below="@+id/no1"
+    		    android:paddingTop="10dp" 
+    		    android:inputType="text"
+    		    android:layout_alignLeft="@+id/inputd"/>
+
+    		<EditText
+    		    android:id="@+id/no3"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:layout_below="@+id/no2"
+    		    android:paddingTop="10dp" 
+    		    android:inputType="text"
+    		    android:layout_alignLeft="@+id/inputd"/>
+    		
+    		
+    		<EditText
+    		    android:id="@+id/no4"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:layout_below="@+id/no3"
+    		    android:paddingTop="10dp" 
+    		    android:inputType="text"
+    		    android:layout_alignLeft="@+id/inputd"/>
+
+    		<EditText
+    		    android:id="@+id/no5"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:layout_below="@+id/no4"
+    		    android:paddingTop="10dp" 
+    		    android:inputType="text"
+    		    android:layout_alignLeft="@+id/inputd"/>
+
+    		<EditText
+    		    android:id="@+id/no6"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:layout_below="@+id/no5"
+    		    android:paddingTop="10dp" 
+    		    android:inputType="text"
+    		    android:layout_alignLeft="@+id/inputd"/>
+
+    		<TextView
+    		    android:id="@+id/c2"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:layout_alignBaseline="@+id/nama"
+    		    android:layout_alignBottom="@+id/nama"
+    		    android:layout_marginLeft="14dp"
+    		    android:layout_toRightOf="@+id/c1"
+    		    android:paddingLeft="10dp"
+    		    android:text="C2" />
+    		
+    		<EditText
+    		    android:id="@+id/c21"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:layout_below="@+id/c2"
+    		    android:paddingTop="10dp" 
+    		    android:paddingLeft="14dp"
+    		    android:layout_marginLeft="8dp"
+    		    android:inputType="number"
+    		    android:layout_alignLeft="@+id/c2"/>
+    		
+    		<EditText
+    		    android:id="@+id/c22"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:layout_below="@+id/c21"
+    		    android:paddingTop="10dp" 
+    		    android:layout_marginLeft="8dp"
+    		    android:inputType="number"
+    		    android:layout_alignLeft="@+id/c2"/>
+    		
+    		<EditText
+    		    android:id="@+id/c23"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:layout_below="@+id/c22"
+    		    android:paddingTop="10dp" 
+    		    android:layout_marginLeft="8dp"
+    		    android:inputType="number"
+    		    android:layout_alignLeft="@+id/c2"/>
+    		
+    		<EditText
+    		    android:id="@+id/c24"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:layout_below="@+id/c23"
+    		    android:paddingTop="10dp" 
+    		    android:layout_marginLeft="8dp"
+    		    android:inputType="number"
+    		    android:layout_alignLeft="@+id/c2"/>
+    		
+    		<EditText
+    		    android:id="@+id/c25"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:layout_below="@+id/c24"
+    		    android:paddingTop="10dp" 
+    		    android:layout_marginLeft="8dp"
+    		    android:inputType="number"
+    		    android:layout_alignLeft="@+id/c2"/>
+    		
+    		<EditText
+    		    android:id="@+id/c26"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:layout_below="@+id/c25"
+    		    android:paddingTop="10dp" 
+    		    android:layout_marginLeft="8dp"
+    		    android:inputType="number"
+    		    android:layout_alignLeft="@+id/c2"/>
+        		
+        	<TextView
+    		    android:id="@+id/c1"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:layout_alignBaseline="@+id/nama"
+    		    android:layout_alignBottom="@+id/nama"
+    		    android:layout_marginLeft="14dp"
+    		    android:layout_toRightOf="@+id/nama"
+    		    android:paddingLeft="10dp"
+    		    android:text="C1" />
+    		
+    		<EditText
+    		    android:id="@+id/c11"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:layout_below="@+id/c1"
+    		    android:paddingTop="10dp" 
+    		    android:inputType="number"
+    		    android:layout_alignLeft="@+id/c1"/>
+    		
+    		<EditText
+    		    android:id="@+id/c12"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:layout_below="@+id/c11"
+    		    android:paddingTop="10dp" 
+    		    android:inputType="number"
+    		    android:layout_alignLeft="@+id/c1"/>
+    		
+    		<EditText
+    		    android:id="@+id/c13"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:layout_below="@+id/c12"
+    		    android:paddingTop="10dp" 
+    		    android:inputType="number"
+    		    android:layout_alignLeft="@+id/c1"/>
+    		
+    		<EditText
+    		    android:id="@+id/c14"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:layout_below="@+id/c13"
+    		    android:paddingTop="10dp" 
+    		    android:inputType="number"
+    		    android:layout_alignLeft="@+id/c1"/>
+    		
+    		<EditText
+    		    android:id="@+id/c15"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:layout_below="@+id/c14"
+    		    android:paddingTop="10dp" 
+    		    android:inputType="number"
+    		    android:layout_alignLeft="@+id/c1"/>
+    		
+    		<EditText
+    		    android:id="@+id/c16"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:layout_below="@+id/c15"
+    		    android:paddingTop="10dp" 
+    		    android:inputType="number"
+    		    android:layout_alignLeft="@+id/c1"/>
+        
+    		<TextView
+    		    android:id="@+id/c3"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:layout_alignBaseline="@+id/nama"
+    		    android:layout_alignBottom="@+id/nama"
+    		    android:layout_marginLeft="14dp"
+    		    android:layout_toRightOf="@+id/c2"
+    		    android:paddingLeft="10dp"
+    		    android:text="C3" />
+    		
+    		<EditText
+    		    android:id="@+id/c31"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:layout_below="@+id/c3"
+    		    android:paddingTop="10dp" 
+    		    android:layout_marginLeft="8dp"
+    		    android:inputType="number"
+    		    android:layout_alignLeft="@+id/c3"/>
+    		
+    		<EditText
+    		    android:id="@+id/c32"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:layout_below="@+id/c31"
+    		    android:paddingTop="10dp" 
+    		    android:layout_marginLeft="8dp"
+    		    android:inputType="number"
+    		    android:layout_alignLeft="@+id/c3"/>
+    		
+    		<EditText
+    		    android:id="@+id/c33"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:layout_below="@+id/c32"
+    		    android:paddingTop="10dp" 
+    		    android:layout_marginLeft="8dp"
+    		    android:inputType="number"
+    		    android:layout_alignLeft="@+id/c3"/>
+    		
+    		<EditText
+    		    android:id="@+id/c34"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:layout_below="@+id/c33"
+    		    android:paddingTop="10dp" 
+    		    android:layout_marginLeft="8dp"
+    		    android:inputType="number"
+    		    android:layout_alignLeft="@+id/c3"/>
+    		
+    		<EditText
+    		    android:id="@+id/c35"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:layout_below="@+id/c34"
+    		    android:paddingTop="10dp" 
+    		    android:layout_marginLeft="8dp"
+    		    android:inputType="number"
+    		    android:layout_alignLeft="@+id/c3"/>
+    		
+    		<EditText
+    		    android:id="@+id/c36"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:layout_below="@+id/c35"
+    		    android:paddingTop="10dp" 
+    		    android:layout_marginLeft="8dp"
+    		    android:inputType="number"
+    		    android:layout_alignLeft="@+id/c3"/>
+    		
+    		<TextView
+    		    android:id="@+id/c4"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:layout_alignBaseline="@+id/nama"
+    		    android:layout_alignBottom="@+id/nama"
+    		    android:layout_marginLeft="14dp"
+    		    android:layout_toRightOf="@+id/c3"
+    		    android:paddingLeft="10dp"
+    		    android:text="C4" />
+    		
+    		<EditText
+    		    android:id="@+id/c41"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:layout_below="@+id/c4"
+    		    android:paddingTop="10dp" 
+    		    android:inputType="number"
+    		    android:layout_alignLeft="@+id/c4"/>
+    		
+    		<EditText
+    		    android:id="@+id/c42"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:layout_below="@+id/c41"
+    		    android:paddingTop="10dp" 
+    		    android:inputType="number"
+    		    android:layout_alignLeft="@+id/c4"/>
+    		
+    		<EditText
+    		    android:id="@+id/c43"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:layout_below="@+id/c42"
+    		    android:paddingTop="10dp" 
+    		    android:inputType="number"
+    		    android:layout_alignLeft="@+id/c4"/>
+    		
+    		<EditText
+    		    android:id="@+id/c44"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:layout_below="@+id/c43"
+    		    android:paddingTop="10dp" 
+    		    android:inputType="number"
+    		    android:layout_alignLeft="@+id/c4"/>
+    		
+    		<EditText
+    		    android:id="@+id/c45"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:layout_below="@+id/c44"
+    		    android:paddingTop="10dp" 
+    		    android:inputType="number"
+    		    android:layout_alignLeft="@+id/c4"/>
+    		
+    		<EditText
+    		    android:id="@+id/c46"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:layout_below="@+id/c45"
+    		    android:paddingTop="10dp" 
+    		    android:inputType="number"
+    		    android:layout_alignLeft="@+id/c4"/>
+    		
+    		<TextView
+    		    android:id="@+id/c5"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:layout_alignBaseline="@+id/nama"
+    		    android:layout_alignBottom="@+id/nama"
+    		    android:layout_marginLeft="14dp"
+    		    android:layout_toRightOf="@+id/c4"
+    		    android:paddingLeft="10dp"
+    		    android:text="C5" />
+    			
+    		<EditText
+    		    android:id="@+id/c51"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:layout_below="@+id/c5"
+    		    android:paddingTop="10dp" 
+    		    android:inputType="number"
+    		    android:layout_alignLeft="@+id/c5"/>
+    		
+    		<EditText
+    		    android:id="@+id/c52"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:layout_below="@+id/c51"
+    		    android:paddingTop="10dp" 
+    		    android:inputType="number"
+    		    android:layout_alignLeft="@+id/c5"/>
+    		
+    		<EditText
+    		    android:id="@+id/c53"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:layout_below="@+id/c52"
+    		    android:paddingTop="10dp" 
+    		    android:inputType="number"
+    		    android:layout_alignLeft="@+id/c5"/>
+    		
+    		<EditText
+    		    android:id="@+id/c54"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:layout_below="@+id/c53"
+    		    android:paddingTop="10dp" 
+    		    android:inputType="number"
+    		    android:layout_alignLeft="@+id/c5"/>
+    		
+    		<EditText
+    		    android:id="@+id/c55"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:layout_below="@+id/c54"
+    		    android:paddingTop="10dp" 
+    		    android:inputType="number"
+    		    android:layout_alignLeft="@+id/c5"/>
+    		
+    		<EditText
+    		    android:id="@+id/c56"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:layout_below="@+id/c55"
+    		    android:paddingTop="10dp" 
+    		    android:inputType="number"
+    		    android:layout_alignLeft="@+id/c5"/>
+    		
+    		<TextView 
+    		    android:id="@+id/presentase"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:layout_below="@+id/no6"
+    		    android:layout_alignLeft="@+id/no6"
+    		    android:text="Total Nilai"
+    		    android:layout_marginTop="10dp"/>
+    		
+    		<TextView 
+    		    android:id="@+id/p1"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:layout_below="@+id/presentase"
+    		    android:layout_alignLeft="@+id/presentase"
+    		    android:text="--"/>
+    		
+    		<EditText 
+    		    android:id="@+id/edp1"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:layout_below="@+id/p1"
+    		    android:layout_alignLeft="@+id/p1"
+    		    android:inputType="number"/>
+    		
+    		<TextView 
+    		    android:id="@+id/p2"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:layout_below="@+id/edp1"
+    		    android:layout_alignLeft="@+id/p1"
+    		    android:text="--"/>
+    		
+    		
+    		<EditText 
+    		    android:id="@+id/edp2"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:layout_below="@+id/p2"
+    		    android:layout_alignLeft="@+id/p2"
+    		    android:inputType="number"/>
+    		
+    		<TextView 
+    		    android:id="@+id/p3"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:layout_below="@+id/edp2"
+				android:layout_alignLeft="@+id/p2"
+    		    android:text="--"/>
+    		
+    		<EditText 
+    		    android:id="@+id/edp3"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:layout_below="@+id/p3"
+    		    android:layout_alignLeft="@+id/p3"
+    		    android:inputType="number"/>
+    		
+    		<TextView 
+    		    android:id="@+id/p4"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:layout_below="@+id/edp3"
+    			android:layout_alignLeft="@+id/p1"
+    		    android:text="--"/>
+    		
+    		<EditText 
+    		    android:id="@+id/edp4"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:layout_below="@+id/p4"
+    		    android:layout_alignLeft="@+id/p4"
+    		    android:inputType="number"/>
+    		
+    		<TextView 
+    		    android:id="@+id/p5"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:layout_below="@+id/edp4"
+    		   	android:layout_alignLeft="@+id/p4"
+    		    android:text="--"/>
+    		
+    		<EditText 
+    		    android:id="@+id/edp5"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:layout_below="@+id/p5"
+    		    android:layout_alignLeft="@+id/p5"
+    		    android:inputType="number"/>
+    		
+    		<TextView 
+    		    android:id="@+id/p6"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:layout_below="@+id/edp5"
+    		    android:layout_alignLeft="@+id/p5"
+    		    android:text="--"/>
+    		
+    		<EditText 
+    		    android:id="@+id/edp6"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:layout_below="@+id/p6"
+    		    android:layout_alignLeft="@+id/p6"
+    		    android:inputType="number"/>
+    		
+    		<Button 
+    		    android:id="@+id/btn_bersih"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:layout_below="@+id/edp6"
+    		    android:layout_alignLeft="@+id/edp1"
+    		    android:text="Bersih"/>
+    		
+    		<Button 
+    		    android:id="@+id/btn_proses"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:layout_below="@+id/edp6"
+    		    android:layout_toRightOf="@+id/btn_bersih"
+    		    android:text="Proses"/>
+    		
+    		
+        </RelativeLayout>
+            
+    </ScrollView>
+    
+</RelativeLayout>

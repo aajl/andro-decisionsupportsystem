@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SPK Siswa Teladan</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="masuk">MASUK</string>
+	<string name="namakelompok">Nama Kelompok</string>
+</resources>
